@@ -1,88 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Health and Wellness Blog</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
-<body>
+  <body>
     <!--Header-->
     <header class="header">
-        <div class="logo-div"><u>hwb</u></div>
-        <h1>Health and Wellness</h1>
+      <div class="logo-div"><u>hwb</u></div>
+      <h1>Health and Wellness</h1>
     </header>
-
 
     <!--nav-->
     <nav>
-        <select class="home-select">
-            <option value="manu">Menu</option>
-            <option value="article">Articles</option>
-            <option value="video">Inspirational Videos</option>
-            <option value="yoga">Guided Yoga</option>
-            <option value="exercise">Exercises Routine</option>
-            <option value="Meditation">Diet Plan</option>
-        </select>
-        <ul class="nav-ul">
-            <li>Homepage</li>
-            <Li><a href="blogPost.html" class="blogPost-link">Blog Post</a></Li>
-        </ul>
+      <select class="home-select">
+        <option value="manu">Menu</option>
+        <option value="article">Articles</option>
+        <option value="video">Inspirational Videos</option>
+        <option value="yoga">Guided Yoga</option>
+        <option value="exercise">Exercises Routine</option>
+        <option value="Meditation">Diet Plan</option>
+      </select>
+      <ul class="nav-ul">
+        <li>Homepage</li>
+        <li><a href="blogPost.html" class="blogPost-link">Blog Post</a></li>
+      </ul>
     </nav>
 
     <!--blog post card  -->
     <main class="card-div">
-        <div class="card1">
-            <h2><u>Eat well to live better :</u></h2>
-            <img src="img/salad-2756467_640.jpg" alt="picture of food">
-            <figcaption>By Jessica Megala June 28/6/2022</figcaption>
-            <button>Read more...</button>
+      <div class="card1">
+        <img src="assets/img/salad-2756467_640.jpg" alt="picture of food" />
+        <div class="container">
+          <h4>By Jessica Megala</h4>
+          <p>Eat well to live better :</p>
+          <button>Read more...</button>
+        </div>
+      </div>
+
+      <div class="card2">
+        <img src="assets/img/woman-2197947_640.jpg" alt="sleep" />
+        <div class="container">
+          <h4><b>By Lauren Bedosky</b></h4>
+          <p>Sleep is the key to success :</p>
         </div>
 
-        <div class="card2">
-            <h2><u>Sleep is the key to success :</u></h2>
-            <img src="img/woman-2197947_640.jpg" alt="picture of sleep">
-            <figcaption>By Lauren Bedosky June 17/6/2022</figcaption>
-            <button>Read more...</button>
-        </div>
+        <button>Read more...</button>
+      </div>
 
-        <div class="card3">
-            <h2><u>Meditate to enter the flow state :</u></h2>
-            <img src="img/woman-5380651_640.jpg" alt="picture of meditation">
-            <figcaption>By Abby Ellin June 28/6/2022</figcaption>
-            <button>Read more...</button>
+      <div class="card3">
+        <img src="assets/img/woman-5380651_640.jpg" alt="meditation" />
+        <div class="container">
+          <h4>By Abby Ellin</h4>
+          <p>Meditate to enter the flow state :</p>
+          <button>Read more...</button>
         </div>
+      </div>
 
-        <div class="card4">
-            <h2><u>Not vitamins, Do exercises :</u></h2>
-            <img src="img/running-6252827_640.jpg" alt="picture of exercising">
-            <figcaption>By Becky Upham June 28/6/2022</figcaption>
-            <button>Read more...</button>
+      <div class="card4">
+        <img src="assets/img/running-6252827_640.jpg" alt="exercising" />
+        <div class="container">
+          <h4><b>By Becky Upham </b></h4>
+          <p>Not vitamins, Do exercises :</p>
+          <button>Read more...</button>
         </div>
-        <aside>
-            <h3>Please subscribe to our blog</h3>
-            <form action="#">
-                <label for="user-name">Type your name</label>
-                <input type="text" id="user-name" name="user-name">
-                <label for="user-email">Type your email</label>
-                <input type="email" id="user-email" name="user-email">
-                <button class="subscribe-btn">subscribe</button>
-            </form>
-        </aside>
-
+      </div>
+      <aside>
+        <h3>Please subscribe to our blog</h3>
+        <form action="#">
+          <label for="user-name">Type your name</label>
+          <input type="text" id="user-name" name="user-name" />
+          <label for="user-email">Type your email</label>
+          <input type="email" id="user-email" name="user-email" />
+          <button class="subscribe-btn">subscribe</button>
+        </form>
+      </aside>
     </main>
-
-
-
 
     <!--footer-->
     <footer>
-        <small><i>Design and developed by Tamosa Ghosh</i></small>
+      <small><i>Design and developed by Tamosa Ghosh</i></small>
     </footer>
-
-</body>
-
+  </body>
 </html>
