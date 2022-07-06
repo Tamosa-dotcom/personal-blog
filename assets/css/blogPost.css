@@ -74,7 +74,9 @@
 h1 {
   margin: 1rem;
 }
-
+.social-icons-div a:hover {
+  color: #b7d251;
+}
 /*Media Queries*/
 @media screen and (min-width: 540px) {
   h1 {
