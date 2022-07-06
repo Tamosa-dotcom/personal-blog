@@ -1,39 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600");
 
 h1,
 h2,
 h3,
 .logo-div {
-    padding: 5px;
-    margin-top: 20px;
-    color: #EDB518;
-    font-family: 'Playfair Display', serif;
+  padding: 5px;
+  margin-top: 10px;
+  font-family: "Playfair Display", serif;
+  color: #edb518;
 }
 
-
 body {
-    font-family: 'Roboto Slab', serif;
-    box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+  box-sizing: border-box;
 }
 
 .author-info {
-    text-align: justify;
-    width: 90vw;
-    font-size: 1.4em;
-    line-height: 1.3em;
-    color: #aaa;
+  text-align: justify;
+  width: 90vw;
+  font-size: 1.4em;
+  line-height: 1.3em;
+  color: #aaa;
 }
 
 /*logo styling*/
 .logo-div {
-    background-color: #b7d251;
-    color: #fff;
-    max-height: 50px;
-    max-width: 50px;
-    border: 3px solid #EDB518;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-color: #b7d251;
+  color: #fff;
+  max-height: 50px;
+  max-width: 50px;
+  border: 3px solid #edb518;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
